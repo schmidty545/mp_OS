@@ -1,0 +1,21 @@
+make: Warning: File `Makefile.dep' has modification time 51 s in the future
+isr_wrapper.S:46:9: warning: no newline at end of file
+interrupt_handler.c: In function ‘interrupt_keyboard’:
+interrupt_handler.c:4: warning: implicit declaration of function ‘putc’
+interrupt_handler.c:9: warning: implicit declaration of function ‘send_eoi’
+interrupt_handler.c: In function ‘interrupt_rtc’:
+interrupt_handler.c:13: warning: implicit declaration of function ‘test_interrupts’
+interrupt_handler.c:15:2: warning: no newline at end of file
+In file included from kernel.c:10:
+_idt.h:172:2: warning: no newline at end of file
+kernel.c: In function ‘entry’:
+kernel.c:127: warning: implicit declaration of function ‘keyboard_init’
+In file included from keyboard.c:1:
+keyboard.h:20:7: warning: no newline at end of file
+In file included from tests.c:4:
+keyboard.h:20:7: warning: no newline at end of file
+tests.c: In function ‘zero_test’:
+tests.c:56: warning: division by zero
+tests.c:58: warning: ‘return’ with no value, in function returning non-void
+tests.c:56: warning: unused variable ‘i’
+make: warning:  Clock skew detected.  Your build may be incomplete.
